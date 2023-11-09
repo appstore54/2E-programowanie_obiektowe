@@ -28,8 +28,8 @@ for(;;)
         case 1: typ="1"; break;
         case 2: typ="2"; break;
         case 3: typ="3"; break;
-        case 4: typ="1"; break;
-        case 5: typ="2"; break;
+        case 4: typ="4"; break;
+        case 5: typ="5"; break;
        
     }
  

@@ -13,7 +13,7 @@ int main()
 
 	int pozycja = rand() % sekretneslowo.size();
 
-	cout << "wylosowaba litera: " << sekretneslowo[pozycja];
+	cout << "wylosowana litera: " << sekretneslowo[pozycja];
 
 	return 0;
 }

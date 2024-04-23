@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	ifstream plik("C:\Nanoc\plik.txt");
+	ifstream plik("C:\ Nanoc\ plik.txt");
 
 	if (plik)
 	{

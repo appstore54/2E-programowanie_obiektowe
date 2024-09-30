@@ -1,0 +1,72 @@
+<html>
+<head></head>
+<body>
+  <script>
+// 1. 
+let celsjusz = prompt("Podaj temperaturę w stopniach Celsjusza:");
+let fahrenheit = (celsjusz * 9/5) + 32;
+alert("Temperatura w Fahrenheitach: " + fahrenheit);
+
+// 2. 
+let num1 = prompt("Podaj pierwszą liczbę:");
+let num2 = prompt("Podaj drugą liczbę:");
+num1 = parseFloat(num1);
+num2 = parseFloat(num2);
+alert("Dodawanie: " + (num1 + num2));
+alert("Odejmowanie: " + (num1 - num2));
+alert("Mnożenie: " + (num1 * num2));
+alert("Dzielenie: " + (num1 / num2));
+
+// 3. 
+let promien = prompt("Podaj promień koła:");
+let pi = 3.14159;
+let pole_kola = pi * promien * promien;
+alert("Pole koła: " + pole_kola);
+
+// 4. 
+let wiek = prompt("Podaj wiek w latach:");
+let dni = wiek * 365;
+alert("Wiek w dniach: " + dni);
+
+// 5. 
+let integer = 5;
+let float = 5.5;
+let string = "Pięć";
+let boolean = true;
+alert("Integer: " + integer);
+alert("Float: " + float);
+alert("String: " + string);
+alert("Boolean: " + boolean);
+
+// 6. 
+let num_str1 = prompt("Podaj pierwszą liczbę (string):");
+let num_str2 = prompt("Podaj drugą liczbę (string):");
+let sum = parseInt(num_str1) + parseInt(num_str2);
+alert("Suma: " + sum);
+
+// 7. 
+let imie_nazwisko = prompt("Podaj imię i nazwisko:");
+alert("Małe litery: " + imie_nazwisko.toLowerCase());
+alert("Wielkie litery: " + imie_nazwisko.toUpperCase());
+alert("Odwrotna kolejność: " + imie_nazwisko.split("").reverse().join(""));
+alert("Długość: " + imie_nazwisko.length);
+
+// 8. 
+let waga = prompt("Podaj wagę w kilogramach:");
+let wzrost = prompt("Podaj wzrost w metrach:");
+let bmi = waga / (wzrost * wzrost);
+alert("BMI: " + bmi);
+
+// 9.
+let odleglosc = prompt("Podaj odległość w kilometrach:");
+let predkosc = prompt("Podaj prędkość w km/h:");
+let czas_podrozy = odleglosc / predkosc;
+alert("Czas podróży: " + czas_podrozy + " godzin");
+
+// 10. 
+let zlote = prompt("Podaj kwotę w złotych:");
+let kurs_euro = 4.5;
+let euro = zlote / kurs_euro;
+alert("Wartość w euro: " + euro.toFixed(2));
+</script>
+</body>

@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        for (int i = 101; ; i++)
+        {
+            if (i % 3 == 0)
+            {
+                Console.WriteLine("Pierwsza liczba większa niż 100 i podzielna przez 3 to: " + i);
+                break;
+            }
+        }
+    }
+}

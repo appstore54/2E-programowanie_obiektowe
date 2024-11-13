@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int celsius = -27;
+        while (celsius <= 27)
+        {
+            double fahrenheit = (celsius * 9 / 5) + 32;
+            Console.WriteLine($"{celsius}°C = {fahrenheit}°F");
+            celsius += 3;
+        }
+    }
+}

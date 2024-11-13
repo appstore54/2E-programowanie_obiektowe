@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Podaj liczbę minut: ");
+        int totalMinutes = int.Parse(Console.ReadLine());
+
+        int hours = 0;
+        int minutes = totalMinutes;
+
+        while (minutes >= 60)
+        {
+            hours++;
+            minutes -= 60;
+        }
+
+        Console.WriteLine($"{totalMinutes} minut to {hours} godziny i {minutes} minut.");
+    }
+}
